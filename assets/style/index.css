@@ -1,0 +1,26 @@
+/*Element selector*/
+p{
+    color: blue;
+    font-size: xx-large;
+
+}
+/**class selector*/
+.title{
+    color:pink ;
+    font-size: medium;
+    text-decoration: underline;
+}
+.header p{
+    color: var(--black-2);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+}
+
+.grid-cell {
+    height: 200px;
+    background-color: var(--color1);
+
+}

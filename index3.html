@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>Hello! I'm a passionate individual focused on web development and continuous learning. I believe in the power of technology to transform lives.</p>
+    
+    <!-- Picture Element -->
+    <picture>
+        <source srcset="images/me-large.jpg" media="(min-width: 1024px)">
+        <source srcset="images/me-medium.jpg" media="(min-width: 768px)">
+        <source srcset="images/me-small.jpg" media="(max-width: 767px)">
+        <img src="images/me-default.jpg" alt="My Picture">
+    </picture>
+    
+    <!-- Video Element -->
+    <video controls>
+        <source src="videos/intro.mp4" type="video/mp4">
+        <source src="videos/intro.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    
+    <!-- Audio Element -->
+    <audio controls>
+        <source src="audio/intro.mp3" type="audio/mpeg">
+        <source src="audio/intro.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    
+</body>
+</html>
